@@ -4,6 +4,18 @@ ReadData::ReadData() {
     data = "";
 }   
 
+bool readConfigFile(const std::string filename) {
+    std::ifstream
+    file(filename.c_str());
+    if (!file.is_open()) {
+        return false;
+    }
+    std::string line;
+
+    file.close();
+    return true;
+}
+
 bool ReadData::readData(const std::string filename) {
     std::ifstream
     file(filename.c_str());

@@ -19,7 +19,7 @@ class ReadData
     bool readData(const std::string filename);
     ~ReadData();
 
-    std::string getData() { return data; }
+//    std::string getData() { return data; }
 
     bool readConfigFile(const std::string filename);
 };

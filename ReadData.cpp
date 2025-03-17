@@ -34,6 +34,9 @@ ReadData::~ReadData() {
     // Destructor
 }
 
+/*
+// This function returns the data read from the file
 std::string ReadData::getData() {
     return data;
-}   
+} 
+*/  

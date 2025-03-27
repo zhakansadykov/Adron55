@@ -14,6 +14,7 @@ int main() {
 
     ReadData rd;
 
-    
+    std::cout << "all good" << std::endl;
+
     return 0;
 }
